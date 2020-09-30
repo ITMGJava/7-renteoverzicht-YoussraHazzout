@@ -16,19 +16,19 @@ public class Renteoverzicht {
                 if (startBedrag <= 299) {
                     System.out.println("Met een rente van 3% per jaar is het bedrag:");
                     var spaarRente = (float) (startBedrag * i * 3) / 100 + startBedrag;
-                    System.out.println("Jaar " + i + ":" + spaarRente);
+                    System.out.println("Jaar " + i + ": €" + spaarRente);
                 } else {
                     if (startBedrag <= 599) {
                         System.out.println("Met een rente van 2% per jaar is het bedrag:");
                         var spaarRente = (float) (startBedrag * i * 2) / 100 + startBedrag;
-                        System.out.println("Jaar " + i + ":" + spaarRente);
+                        System.out.println("Jaar " + i + ": €" + spaarRente);
 
                     }
                 }
                 if (startBedrag > 599) {
                     System.out.println("Met een rente van 1% per jaar is het bedrag:");
                     var spaarRente = (float) (startBedrag * i * 1) / 100 + startBedrag;
-                    System.out.println("Jaar " + i + ":" + spaarRente);
+                    System.out.println("Jaar " + i + ":  €" + spaarRente);
                 }
 
             }
